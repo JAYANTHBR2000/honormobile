@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/2nd project/style.css">
+
+  <title>Document</title>
+  <style>
+
+    .text-format-css {
+      padding-left: 10%;
+      /* margin-top: 5%; */
+      padding-top: 2%;
+      display: flex;
+
+    }
+
+    .fottercss {
+      display: flex;
+      background-color: rgb(182, 236, 196);
+      text-size-adjust: 1px;
+      max-height: fit-content;
+      padding-left: 10%;
+
+    }
+
+    .footercss {
+      padding-left: 250px;
+      margin: 0%;
+     
+    }
+
+    #hrv:hover {
+      color: blue;
+      font-style: italic;
+    }
+
+    #hrv1:hover {
+      color: rgb(154, 37, 94);
+      font-style: oblique;
+    }
+
+    #hrv3:hover {
+      color: rgb(58, 238, 241);
+      font-family: monospace;
+    }
+
+    .textformat {
+      text-decoration: underline;
+      color: darkviolet;
+      text-shadow: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .head:hover {
+      color: gray;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: rgb(219, 240, 244);
+
+    }
+
+    .imgfb {
+      display: flex;
+      padding-left: 10%;
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(img/honor90-front-black.jpg) 30 round;
+    }
+
+    .imgdis {
+      padding-left: 20%;
+      height: 500px;
+      width: 300px;
+      display: flex;
+      cursor: move;
+    }
+
+    .imgdis:hover {
+      transform: rotate(-50deg);
+
+    }
+
+    #navhead {
+      color: gold;
+      /* text-shadow: 60px 2px 2px 2px rgb(249, 246, 249); */
+      text-size-adjust: 5px;
+      outline-style: dotted;
+      outline-color: darkmagenta;
+
+    }
+
+    #navhead:hover {
+      background-repeat: repeat;
+      cursor: alias;
+
+      background-color: rgb(255, 34, 0);
+      color: rgb(12, 250, 250);
+    }
+
+    .camera {
+      padding-left: 15%;
+      /* margin-left: 10%; */
+      display: flex;
+
+      margin: 2%;
+    }
+
+    .img-fluid {
+      height: 150px;
+      width: 350px;
+      background-color: #bd3e3e;
+      border-radius: 50%;
+      cursor: zoom-in;
+      padding-top: 2%;
+      padding-bottom: 1%;
+    }
+
+    .camerapic {
+      border-bottom-style: groove;
+      background-color: azure;
+      cursor: zoom-out;
+      margin: 2px;
+
+
+    }
+    .four {
+display: flex;
+padding-left: 10%;
+}
+.socialmedia{
+  height: 2px;
+  width: 2px;
+  image-resolution: 3px;
+  display: flex;
+}
+  </style>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!-- <link href="login form.html" rel="stylesheet"> -->
+
+
+</head>
+
+<body>
+
+  <nav class="navbar bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HONOR</a>
+      <a class="nav-link" id="navhead" href="https://www.hihonor.com/in/phones/">MOBILE</a>
+      <a class="nav-link" id="navhead" href="https://www.hihonor.com/in/tablets/">TABLETS</a>
+      <a class="nav-link" id="navhead" href="https://www.hihonor.com/in/laptops/">LAPTOPS</a>
+      <a class="nav-link" id="navhead" href="https://www.hihonor.com/in/wearables/">WATCHS</a>
+      <div><a href="login form.html"><h3>login</h3><img src="img/profile.svg"  style="padding-left: 50%;"  ></a></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Navbar text with an inline element
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="active">
+        <a
+          href="https://www.amazon.in/Emerald-Risk-Free-Display-Segment-Quad-Curved/dp/B0CG138J79/ref=sr_1_1_sspa?crid=C3UH6R0IB7KG&keywords=honor%2B90&qid=1695214488&sprefix=honn%2Caps%2C206&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"><img
+            src="img/slider.jpeg" class="d-block w-100" alt="..."></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="camera">
+    <div class="camerapic"><img src="img/circle f.jpeg" class="img-fluid" alt="..." style="margin-top: 20%;"></div><br>
+    <div class="camerapic"><img src="img/CIRCLE.jpeg" class="img-fluid" alt="..."></div><br>
+    <div class="camerapic"><img src="img/circle 2.jpeg" class="img-fluid" alt="..." style="margin-top: 25%;"></div>
+  </div>
+
+
+  <hr>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" style="cursor: wait;">
+      <div class="carousel-item active">
+        <img src="img/honor90-preview-1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/honor90-preview-2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/honor90-preview-3.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/honor90-preview-3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="imgfb">
+    <div class="imgdis">
+      <img src="img/honor90-front-black.jpg" alt="">
+    </div>
+    <div class="imgdis">
+      <img src="img/honor90-phone-right-removebg-preview.png" alt="">
+    </div>
+  </div>
+  <hr>
+  <HR>
+
+  <h5 class="head" style="font-size: 40px ; padding-left: 50%; border-radius: 90%;"> <u>HONOR 90</u></h5>
+  <h4 class="textformat" style="font-size: 40px ; padding-left: 10%;"><u> color</u></h4>
+
+  <div class="four">
+      <div class="card">
+        
+          <img src="img/F1.jpeg" alt="Card Back">
+          <a href="">
+          <img src="img/C2.png" class="img-top" alt="Card Front">
+        </a>
+      </div>
+      <div class="card">
+        <img src="img/F2.jpeg" alt="Card Back">
+          <img src="img/C1.png" class="img-top" alt="Card Front">
+      </div>
+      <div class="card">
+        <img src="img/F3.jpeg" alt="Card Back">
+          <img src="img/C3.png" class="img-top" alt="Card Front">
+      </div>
+      <div class="card">
+        <img src="img/F4.jpeg" alt="Card Back">
+          <img src="img/C4.png" class="img-top" alt="Card Front">
+      </div>
+  </div>
+  <br>
+
+
+
+  <h3 style="padding-left: 25%;">Diamond Silver, Peacock Blue, Midnight Black, Emerald Green
+  </h3>
+  <br>
+  <h4 style="padding-left: 25%;">*Available colors vary by region. Please consult our web site for details.
+  </h4>
+  <hr>
+
+
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          <div class="text-format-css">
+            <h2 class="textformat">Dimensions and Weight</h2>
+          </div></button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="text-format-css">
+            <div style="padding-top: 2%;">
+            <h4>Height</h4>
+            <h6>161.9 mm</h6> <br>
+            <h4>Width</h4>
+            74.1 mm
+
+          </div>
+          <div class="text-format-css">
+            <div > 
+            <h4>Depth</h4>
+            <h6>7.8 mm</h6><br>
+            <h4>Weight</h4> Approx. 183g (including the battery)
+            *The actual dimensions and weight may vary depending on the configuration, manufacturing process, and
+            measurement
+            method.
+            </div>
+          </div>
+          </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div style="display: flex;">
+
+    <div class="text-format-css">
+      <h2 class="textformat">Display</h2>
+    </div>
+    <div class="text-format-css">
+      <div>
+      <h4>Aspect Ratio</h4>
+      <h6>19.98:9</h6><br>
+      <h4>Color</h4>
+      <h6>1.07 billion colours</h6><br>
+      <h4>Type</h4>
+      <h6>AMOLED</h6><br>
+    </div>
+    </div>
+    <div class="text-format-css">
+      <div>
+      <h4>size</h4>
+      <h6>6.7 inches
+
+        *With a rounded corners design on the display, the diagonal length of the screen is 6.7 inches when measured
+        according to the standard rectangle (the actual viewable area is slightly smaller).</h6> <br>
+      <h4>Resolution</h4>
+
+      2664×1200
+
+      *With a rounded corners design on the display, the resolution of the screen is 2664 × 1200 Pixels when measured
+      according to the standard rectangle (the actual viewable area is slightly smaller).<br>
+      <br>
+      <h5>FullView Display Type</h5>
+      Quad-Curved Floating Screen
+      </div>
+    </div>
+
+  </div>
+  <hr>
+
+  <div style="display: flex;">
+
+    <div class="text-format-css">
+      <h2 class="textformat">others</h2>
+    </div>
+    <div class="text-format-css">
+      <div>
+      <h4>Video </h4>
+      <h6>3gp/mp4 </h6><br>
+      <h4>Audio</h4>
+      <h6>mp3/mp4/3gp/ogg/amr/aac/flac/wav/midi </h6><br>
+      <h4>Sound Effect</h4>
+      <h6>HONOR Histen 7.1</h6><br>
+      <h5>USB</h5>
+      Type-C
+      </div>
+    </div>
+    <div class="text-format-css">
+      <div>
+      <h4>In the Box</h4>
+
+      1. Phone(Built-in battery)x 1<br>
+
+      2. HONOR SuperChargex 1*<br>
+
+      3. Type-C Cablex 1<br>
+
+      4. TPU Protective coverx 1*<br>
+
+      5. Quick Start Guidex 1<br>
+
+      6. Eject Toolx 1<br>
+
+      7. Warranty Cardx 1*<br>
+
+      8. TP protective film (Attached on the phone before delivery)x <br>
+
+      <small>
+        * Dependent on market<br>
+
+        * Please make the object as the standard</small>
+      </div>
+    </div>
+
+  </div>
+  <hr>
+
+
+  <div class="fottercss">
+    <h1 style="text-decoration-line: underline;"> HONOR </h1>
+  </div>
+  <div class="fottercss">
+    <div style="display: flex;">
+      <div class="footercss">
+        <nav class="nav-flex-column">
+          <a class="nav-link active" id="hrv1" aria-current="page" href="https://www.hihonor.com/in/"><b>HONOR</b></a>
+          <hr>
+          <a class="nav-link" id="hrv1" href="https://www.hihonor.com/in/phones/">MOBILE</a>
+          <a class="nav-link" id="hrv1" href="https://www.hihonor.com/in/tablets/">TABLETS</a>
+          <a class="nav-link" id="hrv1" href="https://www.hihonor.com/in/laptops/">LAPTOPS</a>
+          <a class="nav-link" id="hrv1" href="https://www.hihonor.com/in/wearables/">WATCHS</a>
+          <a class="nav-link disabled" aria-disabled="true"><img src="img/profile.svg"> PROFILE</a>
+        </nav>
+      </div>
+
+      <div class="footercss">
+        <nav class="nav-flex-column">
+          <h6>ABOUT HONOR</h6>
+          <hr>
+          <a class="nav-link active" id="hrv" aria-current="page" href="cloths.html">ABOUT US</a>
+          <a class="nav-link" id="hrv" href="https://www.hihonor.com/in/news/">NEWS</a>
+          <a class="nav-link" id="hrv" href="https://www.hihonor.com/in/events/">EVENTS</a>
+          <a class="nav-link" id="hrv" href="https://www.hihonor.com/in/blog/">BLOGS</a>
+          <a class="nav-link " href="https://www.hihonor.com/in/blog/" id="hrv" aria-disabled="true"><img src="/2nd project/img/icon/notice.png" style="margin: 5px;">NOTICE</a>
+        </nav>
+      </div>
+      <div class="footercss">
+        <nav class="nav-flex-column">
+          <h6>OTHER PRODUCT HONOR</h6>
+          <hr>
+          <a class="nav-link active" id="hrv3" aria-current="page" href="https://www.hihonor.com/in/audio/">AUDIO</a>
+          <a class="nav-link" id="hrv3" href="https://www.hihonor.com/in/video/">VIDEO</a>
+          <a class="nav-link" id="hrv3" href="https://www.hihonor.com/in/accessories/">ACCESSORIES</a>
+          <a class="nav-link disabled" aria-disabled="true">CHOICE</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="socialmedia">
+    <img src="img/icon/crome.png">
+    <img src="img/icon/gmail.png">
+    <img src="img/icon/youtub">
+    <img src="img/icon/twitte">
+    <img src="img/icon/facebook-new.png">
+    <img src="img/icon/whatsa">
+    <img src="img/icon/instagram-new.png">
+    <img src="img/icon/linke">
+    <i src="img/icon/twitt">
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+
+.card {
+    width: 250px;
+    height: 540px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    display: flex;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+    width: 250px;
+    height: 540px;
+    cursor: pointer;
+    transform: rotate(10deg);
+}
